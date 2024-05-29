@@ -1,0 +1,14 @@
+{
+  "name": "mern_eshop",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "api",
+      "mobile"
+    ]
+  },
+  "engines": {
+    "node": "=20.x"
+  },
+  "packageManager": "yarn@4.2.2"
+}
