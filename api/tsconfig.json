@@ -28,7 +28,8 @@
       // compilerOptions specified here will override those declared above,
       // but *only* in ts-node.  Useful if you want ts-node and tsc to use
       // different options with a single tsconfig.json.
-      "module": "commonjs"
+      "module": "commonjs",
+      "target": "es2015",
     }
   },
   "include": ["src/**/*"],
