@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "tsc -b",
-    "start": "nodemon --watch \"*.ts\" --exec \"node -r ts-node/register --env-file=../.env\" ./src/app.ts",
+    "start": "nodemon --watch \"*.ts\" --exec \"node -r ts-node/register --loader ts-node/esm --env-file=../.env --no-warnings\" ./src/app.ts",
     "lint": "biome check ./src",
     "lint:fix": "biome check --apply ./src"
   },
