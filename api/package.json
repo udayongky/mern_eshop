@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "tsc -b",
     "start": "nodemon --watch \"*.ts\" --exec \"node -r ts-node/register --env-file=../.env\" ./src/app.ts",
