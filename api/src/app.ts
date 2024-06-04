@@ -4,8 +4,12 @@ import express, { type Express } from 'express'
 import helmet from 'helmet'
 import { connect } from 'mongoose'
 import morgan from 'morgan'
-import categoriesRouter from './routes/categories.js'
-import productsRouter from './routes/products.js'
+import categoriesRoutes from './routes/categories.js'
+import productsRoutes from './routes/products.js'
+import usersRoutes from './routes/users.js'
+import errorHandler from './utils/error-handler.js'
+import authJwt from './utils/jwt.js'
+// import ordersRoutes from './routes/orders.js'
 
 dotenv.config()
 
@@ -25,10 +29,14 @@ app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 app.use(morgan('tiny'))
+app.use(authJwt())
+app.use(errorHandler)
 
 // Routes
-app.use(`${apiUrl}/products`, productsRouter)
-app.use(`${apiUrl}/categories`, categoriesRouter)
+app.use(`${apiUrl}/categories`, categoriesRoutes)
+app.use(`${apiUrl}/products`, productsRoutes)
+app.use(`${apiUrl}/users`, usersRoutes)
+// app.use(`${apiUrl}/orders`, ordersRoutes)
 
 // Database Connection
 connect(`${process.env.DATABASE_URL}`)

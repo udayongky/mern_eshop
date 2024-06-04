@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Mimin",
+    "email": "mimin@eshop.id",
+    "password": "mimin123",
+    "phone": "081234567891",
+    "isAdmin": true,
+    "street": "Jl. Bali No. 91",
+    "apartment": "Linkin Park",
+    "zip": "12345",
+    "city": "Jakarta",
+    "country": "Indonesia"
+  },
+  {
+    "name": "Lucy",
+    "email": "lucy@eshop.id",
+    "password": "lucy123",
+    "phone": "081234567892",
+    "isAdmin": false,
+    "street": "Jl. Bali No. 92",
+    "apartment": "Linkin Park",
+    "zip": "12345",
+    "city": "Jakarta",
+    "country": "Indonesia"
+  },
+  {
+    "name": "Grey",
+    "email": "grey@eshop.id",
+    "password": "grey123",
+    "phone": "081234567893",
+    "isAdmin": false,
+    "street": "Jl. Bali No. 93",
+    "apartment": "Linkin Park",
+    "zip": "12345",
+    "city": "Jakarta",
+    "country": "Indonesia"
+  },
+  {
+    "name": "Erza",
+    "email": "erza@eshop.id",
+    "password": "erza123",
+    "phone": "081234567894",
+    "isAdmin": false,
+    "street": "Jl. Bali No. 94",
+    "apartment": "Linkin Park",
+    "zip": "12345",
+    "city": "Jakarta",
+    "country": "Indonesia"
+  }
+]

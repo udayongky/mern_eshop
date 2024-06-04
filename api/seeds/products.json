@@ -1,0 +1,93 @@
+[
+  {
+    "name": "uniqlo t-shirt",
+    "description": "uniqlo t-shirt description",
+    "richDescription": "uniqlo t-shirt richDescription",
+    "image": "image/uniqlo-tshirt.jpg",
+    "brand": "uniqlo",
+    "price": 200000,
+    "category": "665d6659d7e1b728b098dff5",
+    "countInStock": 15,
+    "rating": 9,
+    "numReviews": 20,
+    "isFeatured": true
+  },
+  {
+    "name": "levi's jeans",
+    "description": "levi's jeans description",
+    "richDescription": "levi's jeans richDescription",
+    "image": "image/levis-jeans.jpg",
+    "brand": "levi's",
+    "price": 700000,
+    "category": "665d66e5d7e1b728b098dff7",
+    "countInStock": 10,
+    "rating": 8,
+    "numReviews": 10,
+    "isFeatured": true
+  },
+  {
+    "name": "sketcher shoes",
+    "description": "sketcher shoes description",
+    "richDescription": "sketcher shoes richDescription",
+    "image": "image/sketcher-shoes.jpg",
+    "brand": "sketcher",
+    "price": 900000,
+    "category": "665d6710d7e1b728b098dff9",
+    "countInStock": 20,
+    "rating": 9,
+    "numReviews": 30,
+    "isFeatured": true
+  },
+  {
+    "name": "triple t-shirt",
+    "description": "triple t-shirt description",
+    "richDescription": "triple t-shirt richDescription",
+    "image": "image/triple-tshirt.jpg",
+    "brand": "triple",
+    "price": 50000,
+    "category": "665d6659d7e1b728b098dff5",
+    "countInStock": 150,
+    "rating": 5,
+    "numReviews": 50,
+    "isFeatured": false
+  },
+  {
+    "name": "gabrel jeans",
+    "description": "gabrel jeans description",
+    "richDescription": "gabrel jeans richDescription",
+    "image": "image/gabrel-jeans.jpg",
+    "brand": "gabrel",
+    "price": 70000,
+    "category": "665d66e5d7e1b728b098dff7",
+    "countInStock": 200,
+    "rating": 6,
+    "numReviews": 50,
+    "isFeatured": false
+  },
+  {
+    "name": "nyeker shoes",
+    "description": "nyeker shoes description",
+    "richDescription": "nyeker shoes richDescription",
+    "image": "image/nyeker-shoes.jpg",
+    "brand": "nyeker",
+    "price": 90000,
+    "category": "665d6710d7e1b728b098dff9",
+    "countInStock": 125,
+    "rating": 4,
+    "numReviews": 55,
+    "isFeatured": false
+  },
+  {
+    "name": "hm t-shirt",
+    "description": "hm t-shirt description",
+    "richDescription": "hm t-shirt richDescription",
+    "image": "image/hm-tshirt.jpg",
+    "brand": "hm",
+    "price": 250000,
+    "category": "665d6659d7e1b728b098dff5",
+    "countInStock": 12,
+    "rating": 8,
+    "numReviews": 8,
+    "isFeatured": true
+  }
+]

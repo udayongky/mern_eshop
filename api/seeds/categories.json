@@ -1,0 +1,17 @@
+[
+  {
+    "name": "clothes",
+    "icon": "icon-clothes",
+    "color": "#f87171"
+  },
+  {
+    "name": "pants",
+    "icon": "icon-pants",
+    "color": "#60a5fa"
+  },
+  {
+    "name": "shoes",
+    "icon": "icon-shoes",
+    "color": "#a78bfa"
+  }
+]
